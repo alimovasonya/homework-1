@@ -161,10 +161,7 @@ void statistics(Result data[], int size) {
     printf("Average: %.2f\n", (double)sum / size);
     printf("Score >= 60: %d\n", passed);
 
-    printf("Minimum: %d %d\n", data[min
-
-
-].id, data[min_index].score);
+    printf("Minimum: %d %d\n", data[min_index].id, data[min_index].score);
     printf("Maximum: %d %d\n", data[max_index].id, data[max_index].score);
 }
 
@@ -317,6 +314,9 @@ int main(void) {
 
     return 0;
 }
+
+
+
 
 
 
